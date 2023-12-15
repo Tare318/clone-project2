@@ -1,0 +1,63 @@
+button {
+  width: 150px;
+  height: 40px;
+  background-image: linear-gradient(rgb(255, 84, 162), rgb(255, 87, 90));
+  background: linear-gradient(#ff54a2, #ff575a);
+  font-size: bold;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.6s;
+  letter-spacing: 2px;
+  font-size: 14px;
+
+}
+
+button:hover {
+  background: linear-gradient(to right, #fb5283, #ff3527);
+  letter-spacing: 2px;
+}
+
+.mcontainer {
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 30px;
+  width: 250px;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+.mcontainer img {
+  width: 250px;
+  margin: 20px;
+}
+
+.cover {
+  position: relative;
+
+
+
+}
+
+.cover img {
+
+  height: 450px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+
+.cover-text {
+  position: absolute;
+  top: 25%;
+  color: white;
+  padding: 5px;
+  width: 500px;
+  padding-left: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+  color: red;
+}
